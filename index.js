@@ -9,7 +9,9 @@ app.get('/', (req, res) => {
 app.get('/health', (req, res) => {
     res.send('<h1>Healthy rho bhaii</h1>')
 })
-
+app.get('/shivam', (req, res) => {
+    res.send('<h1>shivam bhaii</h1>')
+})
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
